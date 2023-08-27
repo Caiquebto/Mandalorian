@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mandaloriam</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>The Mandalorian</h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img id="mando" src="img/mando.webp">
+        </div>
+        <div class="box-txt">
+            <span>The Mandalorian</span>
+            <h2>Após a queda do Império, o mandaloriano solitário trilha seu caminho pela gaxáxia com seu
+                enjeitado,Grogu</h2>
+            <p>Din Djarin é um guerreiro solitário que trabalha como caçador de recompensa. Ele embarca em uma jornada
+                pelos territórios esquecidos da galáxia, logo após a queda do Império e antes da criação da temida
+                Primeira Ordem.</p>
+            <a href="https://www.youtube.com/watch?v=Znsa4Deavgg" class="btn-hero" target="_blank">Official Trailer</a>
+        </div>
+    </section>
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Grogu</h3>
+            <p>"Grogu" foi um ser masculino sensível à Força que pertencia à mesma espécie que o Grão-Mestre Yoda e a
+                Mestre Jedi Yaddle.</p>
+        </div>
+        <div class="box-item">
+            <h3>Greef Karga</h3>
+            <p>Greef Karga foi um humano e e ex-magistrado antes de se tornar um agente da Guilda de Caçadores de
+                Recompensas após a queda do Império Galáctico.</p>
+        </div>
+        </div>
+        <div class="box-item">
+            <h3>Cara Dune</h3>
+            <p>Carasynthia "Cara" Dune era uma humana Alderaaniana que serviu como soldado na Aliança pela Restauração
+                da República e na Nova República durante a Guerra Civil Galáctica .</p>
+        </div>
+        <a href="https://www.youtube.com/watch?v=4bpk2k1ug3M&list=PL148kCvXk8pCIP4ENUF3tSIG_SmVNxBU7&index=6" class="m-top btn-hero" target="_blank">The Mandalorian</a>
+
+    </section>
+
+    <footer>
+        <p>© Disney. Todos os direitos reservados.</p>
+    </footer>
+
+    <div class="disney">
+        <a href="https://www.disneyplus.com/pt-br/series/the-mandalorian/3jLIGMDYINqD" target="_blank">
+        <img src="img/icon.png">
+        </a>
+    </div>
+
+    <script>
+        // PEGAR O ELEMENTO
+        const mando = document.getElementById('mando');
+        // EVENDO QUANDO O MOUSE ESTIVER ENCIMA DA IMAGEM USANDO JAVA SCRIPT//
+        mando.addEventListener('mouseover', function(){
+            mando.src = "img/grogu.webp";
+        })
+
+         // EVENDO QUANDO O MOUSE SAIR DE CIMA DA IMAGEM USANDO JAVA SCRIPT//
+         mando.addEventListener('mouseout', function(){
+            mando.src = "img/mando.webp";
+        })
+
+    </script>
+
+</body>
+
+</html>
